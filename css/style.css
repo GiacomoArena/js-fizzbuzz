@@ -8,12 +8,10 @@ body{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color:rgba(9, 49, 9, 0.849);
 }
-section{
-  width: 100%;
-}
+
 
 .container{
-  width: 1000px;
+  width: 80%;
   margin: 30px auto;
   display: flex;
   flex-wrap: wrap;
@@ -36,5 +34,6 @@ section{
 .box:hover{
   width: 95px;
   height: 95px;
+  margin: 15px;
   font-size: 1.5rem;
 }
