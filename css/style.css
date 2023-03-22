@@ -4,9 +4,6 @@
   box-sizing: border-box;
 }
 
-
-
-
 body{
   background-color:darkgreen;
 }
@@ -15,7 +12,7 @@ section{
 }
 
 .container{
-  width: 90%;
+  width: 1000px;
   margin: 30px auto;
   display: flex;
   flex-wrap: wrap;
@@ -23,8 +20,8 @@ section{
 .box{
   background-color: rgb(112, 15, 112);
   color: azure;
-  width: calc(100% / 11 );
-  margin: 3px;
+  width: 80px;
+  margin: 10px;
   height: 80px;
   border: 1px solid black;
   display: flex;
