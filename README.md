@@ -6,7 +6,11 @@ ma che per i multipli di 3 stampi “Fizz” al posto del numero e per i multipl
 Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”.
 
 ## Passaggi
-- creare un ciclo for che stampa in console numeri da   i=1 a i <=100 
+- creare un ciclo for che stampa in console numeri da   i=1 a i <=100   
+  ```
+  for(let i = 1; i <= 100; i++){
+  console.log(i);   
+
 - individuare i numeri divisibili per 3 e sostituire al numero il valore 'Fizz'
 - individuare i numeri divisibili per 5 e sostituire al numero il valore 'Buzz'
 - individuare i numeri che sono sia divisibili per 3 che per 5 e assegnare il valore “FizzBuzz”
