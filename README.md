@@ -52,20 +52,20 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”.
 ## bonus
  Creare nel dom un element container "div" per poi aggiungere la classe "container "
  e anche un element container "box"
- poi attraverso append mandare a schermo i nostri risultati per poi occuparsi della parte grafica con css
+ poi attraverso append mandare a schermo i nostri risultati per poi occuparsi della parte grafica con css  
+ 
 
  ```
- const section = document.querySelector("section")
+ const section = document.querySelector("section");
   
   const div = document.createElement('div');
-  div.classList.add('container')
+  
 
-  const div2 = document.createElement('div');
-  div.classList.add('box')
-  
-  
+  section.classList.add('container');
+  div.classList.add('box');
+
   section.append(div);
-  div.append(i);
+
  ```
 .
 
