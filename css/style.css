@@ -1,0 +1,25 @@
+
+
+
+
+/* 
+body{
+  background-color:darkgreen;
+} */
+
+.container{
+  color: blueviolet;
+  width: 800px;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box{
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
