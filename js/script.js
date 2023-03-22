@@ -14,17 +14,17 @@ for(let i = 1; i <= 100; i++){
 
   if(i % 3 === 0 && i % 5 === 0 ){
     div.innerHTML = "FizzBuzz";
-    div.style.cssText = "background-color:lightblue;color:black; ";
+    div.style.cssText = "background-color:lightblue; ";
     console.log("FizzBuzz");
   }
   else if(i % 5 === 0 ){
     div.innerHTML = "Buzz";
-    div.style.cssText = "background-color:lightgreen;color:black; ";
+    div.style.cssText = "background-color:lightgreen; ";
     console.log("Buzz");
   }
   else if(i % 3 === 0 ){
     div.innerHTML = "Fizz";
-    div.style.cssText = "background-color:lightcoral;color:black; ";
+    div.style.cssText = "background-color:lightcoral; ";
     console.log('Fizz');
   }
   else {

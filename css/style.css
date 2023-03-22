@@ -5,7 +5,8 @@
 }
 
 body{
-  background-color:darkgreen;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color:rgba(9, 49, 9, 0.849);
 }
 section{
   width: 100%;
@@ -18,13 +19,22 @@ section{
   flex-wrap: wrap;
 }
 .box{
+  font-weight: 500;
   background-color: rgb(112, 15, 112);
-  color: azure;
   width: 80px;
   margin: 10px;
   height: 80px;
   border: 1px solid black;
+  border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.box:hover{
+  width: 95px;
+  height: 95px;
+  font-size: 1.5rem;
 }
