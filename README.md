@@ -24,6 +24,12 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”.
   .
 - ## individuare     
   i numeri divisibili per 5 e sostituire al numero il valore 'Buzz'
+  ```
+  else if(i % 5 === 0 ){
+    console.log("Buzz");
+  }
+  ```
+  .
 - ## individuare 
    i numeri che sono sia divisibili per 3 che per 5 e assegnare il valore “FizzBuzz”
 
