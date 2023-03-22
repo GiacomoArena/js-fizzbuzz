@@ -5,14 +5,12 @@ for(let i = 1; i <= 100; i++){
   const section = document.querySelector("section")
   
   const div = document.createElement('div');
-  div.classList.add('container')
+  
 
-  const div2 = document.createElement('div');
+  section.classList.add('container')
   div.classList.add('box')
-  
-  
+
   section.append(div);
-  div.append(i);
 
   if(i % 3 === 0 && i % 5 === 0 ){
     div.innerHTML = "FizzBuzz";
@@ -27,6 +25,7 @@ for(let i = 1; i <= 100; i++){
     console.log('Fizz');
   }
   else {
+    div.innerHTML = i;
     console.log(i);
   }
   

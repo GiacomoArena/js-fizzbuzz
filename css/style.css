@@ -1,22 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 
 
 
-/* 
 body{
   background-color:darkgreen;
-} */
+}
+section{
+  width: 100%;
+}
 
 .container{
-  color: blueviolet;
-  width: 800px;
-  margin: 20px auto;
+  width: 90%;
+  margin: 30px auto;
   display: flex;
   flex-wrap: wrap;
 }
-
 .box{
-  width: 80px;
+  background-color: rgb(112, 15, 112);
+  color: azure;
+  width: calc(100% / 11 );
+  margin: 3px;
   height: 80px;
   border: 1px solid black;
   display: flex;
