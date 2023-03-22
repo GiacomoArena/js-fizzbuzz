@@ -30,7 +30,23 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”.
   }
   ```
   .
+    
 - ## individuare 
    i numeri che sono sia divisibili per 3 che per 5 e assegnare il valore “FizzBuzz”
+   ```
+  if(i % 3 === 0 && i % 5 === 0 ){
+    console.log("FizzBuzz");
+  }
+  else if(i % 5 === 0 ){
+    console.log("Buzz");
+  }
+  else if(i % 3 === 0 ){
+    console.log('Fizz');
+  }
+  else {
+    console.log(i);
+  }
+  ```
+  .
 
 
