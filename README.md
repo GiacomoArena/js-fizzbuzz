@@ -10,9 +10,21 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”.
   ```
   for(let i = 1; i <= 100; i++){
   console.log(i)};   
+  ```
 .
 - individuare i numeri divisibili per 3 e sostituire al numero il valore 'Fizz'
-- individuare i numeri divisibili per 5 e sostituire al numero il valore 'Buzz'
-- individuare i numeri che sono sia divisibili per 3 che per 5 e assegnare il valore “FizzBuzz”
+  ```
+  if(i % 3 === 0 ){
+    console.log("Fizz");
+  }
+  else {
+    console.log(i);
+  }
+  ```
+  .
+- ## individuare     
+  i numeri divisibili per 5 e sostituire al numero il valore 'Buzz'
+- ## individuare 
+   i numeri che sono sia divisibili per 3 che per 5 e assegnare il valore “FizzBuzz”
 
 
